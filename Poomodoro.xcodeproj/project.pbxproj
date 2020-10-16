@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		913606DE253900BF008E964E /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913606DD253900BF008E964E /* SettingsViewModel.swift */; };
 		91510FAA2535CDF3000A604E /* watchTest WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 91510FA92535CDF3000A604E /* watchTest WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		91510FB02535CDF3000A604E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91510FAE2535CDF3000A604E /* Interface.storyboard */; };
 		91510FB22535CDF4000A604E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91510FB12535CDF4000A604E /* Assets.xcassets */; };
 		91510FB92535CDF4000A604E /* watchTest WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 91510FB82535CDF4000A604E /* watchTest WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		91510FBE2535CDF4000A604E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91510FBD2535CDF4000A604E /* InterfaceController.swift */; };
+		91510FBE2535CDF4000A604E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91510FBD2535CDF4000A604E /* HomeViewController.swift */; };
 		91510FC02535CDF4000A604E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91510FBF2535CDF4000A604E /* ExtensionDelegate.swift */; };
 		91510FC22535CDF4000A604E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91510FC12535CDF4000A604E /* Assets.xcassets */; };
+		91510FD62535D3DF000A604E /* WorkTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91510FD52535D3DF000A604E /* WorkTimeViewController.swift */; };
+		91510FD82535EE6C000A604E /* PauseTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91510FD72535EE6C000A604E /* PauseTimeViewController.swift */; };
+		91510FDE2535EF19000A604E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91510FDD2535EF19000A604E /* HomeViewModel.swift */; };
+		91510FE12535EF58000A604E /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91510FE02535EF58000A604E /* Closures.swift */; };
+		9186D2BE2535F3E900D1655B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186D2BD2535F3E900D1655B /* SettingsViewController.swift */; };
+		9186D2C0253683B300D1655B /* WorkTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186D2BF253683B300D1655B /* WorkTimeViewModel.swift */; };
+		9186D2C22536852500D1655B /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186D2C12536852500D1655B /* Screens.swift */; };
+		9186D2C42536881200D1655B /* PauseTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186D2C32536881200D1655B /* PauseTimeViewModel.swift */; };
+		91C8944925369D7100070669 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C8944825369D7100070669 /* Notifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,16 +69,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		913606DD253900BF008E964E /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		91510FA52535CDF3000A604E /* watchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91510FA92535CDF3000A604E /* watchTest WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchTest WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91510FAF2535CDF3000A604E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		91510FB12535CDF4000A604E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91510FB32535CDF4000A604E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91510FB82535CDF4000A604E /* watchTest WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchTest WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91510FBD2535CDF4000A604E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		91510FBD2535CDF4000A604E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		91510FBF2535CDF4000A604E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		91510FC12535CDF4000A604E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91510FC32535CDF4000A604E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91510FD52535D3DF000A604E /* WorkTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTimeViewController.swift; sourceTree = "<group>"; };
+		91510FD72535EE6C000A604E /* PauseTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseTimeViewController.swift; sourceTree = "<group>"; };
+		91510FDD2535EF19000A604E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		91510FE02535EF58000A604E /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		9186D2BD2535F3E900D1655B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9186D2BF253683B300D1655B /* WorkTimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTimeViewModel.swift; sourceTree = "<group>"; };
+		9186D2C12536852500D1655B /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
+		9186D2C32536881200D1655B /* PauseTimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseTimeViewModel.swift; sourceTree = "<group>"; };
+		91C8944825369D7100070669 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +134,70 @@
 		91510FBC2535CDF4000A604E /* watchTest WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				91510FBD2535CDF4000A604E /* InterfaceController.swift */,
+				91C8944725369D4300070669 /* NoticifationsCenter */,
+				91510FDC2535EEEE000A604E /* Settings */,
+				91510FD92535EED6000A604E /* Home */,
+				91510FDA2535EEDB000A604E /* WorkTime */,
+				91510FDB2535EEE5000A604E /* PauseTime */,
+				91510FDF2535EF42000A604E /* Helper */,
 				91510FBF2535CDF4000A604E /* ExtensionDelegate.swift */,
 				91510FC12535CDF4000A604E /* Assets.xcassets */,
 				91510FC32535CDF4000A604E /* Info.plist */,
 			);
 			path = "watchTest WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		91510FD92535EED6000A604E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				91510FBD2535CDF4000A604E /* HomeViewController.swift */,
+				91510FDD2535EF19000A604E /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		91510FDA2535EEDB000A604E /* WorkTime */ = {
+			isa = PBXGroup;
+			children = (
+				91510FD52535D3DF000A604E /* WorkTimeViewController.swift */,
+				9186D2BF253683B300D1655B /* WorkTimeViewModel.swift */,
+			);
+			path = WorkTime;
+			sourceTree = "<group>";
+		};
+		91510FDB2535EEE5000A604E /* PauseTime */ = {
+			isa = PBXGroup;
+			children = (
+				91510FD72535EE6C000A604E /* PauseTimeViewController.swift */,
+				9186D2C32536881200D1655B /* PauseTimeViewModel.swift */,
+			);
+			path = PauseTime;
+			sourceTree = "<group>";
+		};
+		91510FDC2535EEEE000A604E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9186D2BD2535F3E900D1655B /* SettingsViewController.swift */,
+				913606DD253900BF008E964E /* SettingsViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		91510FDF2535EF42000A604E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				91510FE02535EF58000A604E /* Closures.swift */,
+				9186D2C12536852500D1655B /* Screens.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		91C8944725369D4300070669 /* NoticifationsCenter */ = {
+			isa = PBXGroup;
+			children = (
+				91C8944825369D7100070669 /* Notifications.swift */,
+			);
+			path = NoticifationsCenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +327,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C8944925369D7100070669 /* Notifications.swift in Sources */,
+				9186D2C0253683B300D1655B /* WorkTimeViewModel.swift in Sources */,
+				91510FD82535EE6C000A604E /* PauseTimeViewController.swift in Sources */,
 				91510FC02535CDF4000A604E /* ExtensionDelegate.swift in Sources */,
-				91510FBE2535CDF4000A604E /* InterfaceController.swift in Sources */,
+				9186D2BE2535F3E900D1655B /* SettingsViewController.swift in Sources */,
+				91510FD62535D3DF000A604E /* WorkTimeViewController.swift in Sources */,
+				91510FDE2535EF19000A604E /* HomeViewModel.swift in Sources */,
+				9186D2C22536852500D1655B /* Screens.swift in Sources */,
+				91510FBE2535CDF4000A604E /* HomeViewController.swift in Sources */,
+				9186D2C42536881200D1655B /* PauseTimeViewModel.swift in Sources */,
+				91510FE12535EF58000A604E /* Closures.swift in Sources */,
+				913606DE253900BF008E964E /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -384,6 +473,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -482,7 +572,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SPYXZN2GGQ;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.DRojo.watchTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DRojo.Poomodoro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -495,7 +585,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SPYXZN2GGQ;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.DRojo.watchTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DRojo.Poomodoro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

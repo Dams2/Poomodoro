@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="16097.2" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="16012"/>
+    </dependencies>
+    <scenes>
+        <!--SettingsViewController-->
+        <scene sceneID="RMr-VL-cpO">
+            <objects>
+                <controller identifier="SettingsViewController" id="Znk-Tt-rnW" customClass="SettingsViewController" customModule="watchTest_WatchKit_Extension">
+                    <items>
+                        <label width="136" alignment="center" text="Configurations" textAlignment="center" id="oKd-8Y-oIs">
+                            <fontDescription key="font" type="system" pointSize="12"/>
+                        </label>
+                        <group width="134" height="132" alignment="center" verticalAlignment="center" layout="vertical" id="4Wh-IY-La9">
+                            <items>
+                                <group width="1" height="60" alignment="center" id="HU1-9a-OJ3">
+                                    <items>
+                                        <button width="60" height="60" alignment="left" verticalAlignment="center" title="30/5" id="PAF-2U-d0d">
+                                            <color key="backgroundColor" red="0.045339212877808191" green="0.12109538563349469" blue="0.35400294803725885" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <action selector="didPressFirstConfigurationButton" destination="Znk-Tt-rnW" id="rcT-Km-KFM"/>
+                                            </connections>
+                                        </button>
+                                        <separator alignment="center" verticalAlignment="center" id="iyi-Is-xna"/>
+                                        <button width="60" height="60" alignment="right" verticalAlignment="center" title="45/5" id="Elu-Lf-1KF">
+                                            <color key="backgroundColor" red="0.065025636238189854" green="0.31281877925553303" blue="0.15632417400567206" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <action selector="didPressSecondConfigurationButton" destination="Znk-Tt-rnW" id="bPz-zB-qbr"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <separator width="136" alignment="center" verticalAlignment="center" id="z1b-ej-jid"/>
+                                <group width="1" height="60" alignment="center" verticalAlignment="bottom" id="rDj-RB-PDu">
+                                    <items>
+                                        <button width="60" height="60" alignment="left" verticalAlignment="center" title="45/10" id="zid-2G-iSO">
+                                            <color key="backgroundColor" red="0.26485029643047964" green="0.035572947808120182" blue="0.34623010539766497" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <action selector="didPressThirdConfigurationButton" destination="Znk-Tt-rnW" id="Dyz-9S-RWE"/>
+                                            </connections>
+                                        </button>
+                                        <separator alignment="center" verticalAlignment="center" id="ouS-ok-HBD"/>
+                                        <button width="60" height="60" alignment="right" verticalAlignment="center" title="60/10" id="P0g-nC-zDJ">
+                                            <color key="backgroundColor" red="0.34623010539766497" green="0.041615911969311019" blue="0.12816460623339335" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <connections>
+                                                <action selector="didPressFourthConfigurationButton" destination="Znk-Tt-rnW" id="bXh-Yf-EFk"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="configurationsLabel" destination="oKd-8Y-oIs" id="w52-FT-mFy"/>
+                        <outlet property="firstConfigurationButton" destination="PAF-2U-d0d" id="5F6-86-UwE"/>
+                        <outlet property="fourthConfigurationButton" destination="P0g-nC-zDJ" id="5g9-l8-crx"/>
+                        <outlet property="secondConfigurationButton" destination="Elu-Lf-1KF" id="0Ng-0E-jXV"/>
+                        <outlet property="thirdConfigurationButton" destination="zid-2G-iSO" id="m4p-zS-ckj"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="-284"/>
+        </scene>
+        <!--HomeViewController-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="HomeViewController" id="AgC-eL-Hgc" customClass="HomeViewController" customModule="watchTest_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="100" alignment="center" verticalAlignment="center" layout="vertical" id="9QW-Rw-hRC">
+                            <items>
+                                <group width="1" alignment="center" id="zcR-7b-MJg">
+                                    <items>
+                                        <label width="80" alignment="left" verticalAlignment="center" text="Statistics" textAlignment="center" id="TsY-Fr-xQN">
+                                            <fontDescription key="font" type="system" pointSize="18"/>
+                                        </label>
+                                        <button width="23" height="21" alignment="right" backgroundImage="gear" catalog="system" id="rRn-Gd-5ZF">
+                                            <color key="backgroundColor" red="0.94901960784313721" green="0.11372549019607843" blue="0.11372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <action selector="didPressSettingsButton" destination="AgC-eL-Hgc" id="IhG-dH-JeS"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="134" height="80" alignment="center" layout="vertical" id="atc-df-49p">
+                                    <items>
+                                        <group width="1" height="25" alignment="center" id="2NH-JE-t6S">
+                                            <items>
+                                                <label width="84" alignment="left" verticalAlignment="center" text="Work Time :" textAlignment="left" numberOfLines="2" id="8gw-jN-45q">
+                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                </label>
+                                                <label alignment="right" verticalAlignment="center" text="13H" id="xZ9-lY-kB9">
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                                </label>
+                                            </items>
+                                        </group>
+                                        <separator width="136" alignment="center" id="dLI-qn-sgx"/>
+                                        <group width="1" alignment="center" id="XEs-7l-qG8">
+                                            <items>
+                                                <label width="84" alignment="left" verticalAlignment="center" text="Pause Time :            " textAlignment="left" numberOfLines="2" id="iAO-J5-I2a">
+                                                    <fontDescription key="font" type="system" pointSize="14"/>
+                                                </label>
+                                                <label alignment="right" verticalAlignment="center" text="13H" id="Ig0-vc-aUl">
+                                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                                </label>
+                                            </items>
+                                        </group>
+                                        <separator width="136" alignment="center" verticalAlignment="center" id="zBk-rN-ni4"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                        <table alignment="center" verticalAlignment="bottom" id="iY1-x7-IoB"/>
+                        <button width="136" height="28" alignment="center" verticalAlignment="bottom" title="Start" id="7Sp-dk-rxx">
+                            <color key="titleColor" red="0.94901960780000005" green="0.1137254902" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="system" pointSize="23"/>
+                            <connections>
+                                <action selector="didPressStartButton" destination="AgC-eL-Hgc" id="PJk-jn-Tdo"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="pauseTimeAmountLabel" destination="Ig0-vc-aUl" id="2mm-wx-h9e"/>
+                        <outlet property="pauseTimeLabel" destination="iAO-J5-I2a" id="yCG-f4-1Rk"/>
+                        <outlet property="settingsButton" destination="rRn-Gd-5ZF" id="8cQ-Kg-5A3"/>
+                        <outlet property="startButton" destination="7Sp-dk-rxx" id="qyi-gE-Eug"/>
+                        <outlet property="statisticsLabel" destination="TsY-Fr-xQN" id="l01-ZQ-Yxb"/>
+                        <outlet property="workTimeAmountLabel" destination="xZ9-lY-kB9" id="yYL-6B-Iiv"/>
+                        <outlet property="workTimeLabel" destination="8gw-jN-45q" id="nPW-3t-7JH"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="27"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="i4I-9z-Qqw">
+            <objects>
+                <notificationController id="ABt-hL-TEg" customClass="Notifications" customModule="watchTest_WatchKit_Extension">
+                    <items>
+                        <label width="136" alignment="center" verticalAlignment="center" text="Alert Label" textAlignment="center" id="gfA-ES-VWC"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" id="zpZ-u3-wto"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="gfA-ES-VWC" id="se2-CA-Yyy"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="41" y="387"/>
+        </scene>
+        <!--WorkTimeViewController-->
+        <scene sceneID="baD-lN-l3L">
+            <objects>
+                <controller identifier="WorkTimeViewController" id="KrW-2i-NZB" customClass="WorkTimeViewController" customModule="watchTest_WatchKit_Extension">
+                    <items>
+                        <timer width="136" height="53" alignment="center" textAlignment="center" previewedSeconds="1800" id="Yxh-xt-syG">
+                            <color key="textColor" red="0.94901960780000005" green="0.1137254902" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="system" weight="semibold" pointSize="32"/>
+                            <calendarUnit key="units" minute="YES" second="YES"/>
+                        </timer>
+                        <label width="110" alignment="center" verticalAlignment="center" text="Concentrate on your work 💪" textAlignment="center" numberOfLines="3" id="s7c-ut-unU">
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="workLabel" destination="s7c-ut-unU" id="h7N-TE-cIF"/>
+                        <outlet property="workTimer" destination="Yxh-xt-syG" id="Sze-W9-dwG"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="284" y="28"/>
+        </scene>
+        <!--PauseTimeViewController-->
+        <scene sceneID="snl-zg-GBV">
+            <objects>
+                <controller identifier="PauseTimeViewController" id="1J6-sf-SEb" customClass="PauseTimeViewController" customModule="watchTest_WatchKit_Extension">
+                    <items>
+                        <timer width="136" height="53" alignment="center" textAlignment="center" previewedSeconds="300" id="a6i-Wn-g17">
+                            <color key="textColor" red="0.25730219494467066" green="0.46271571302974057" blue="0.87167209386825562" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="font" type="system" weight="semibold" pointSize="32"/>
+                            <calendarUnit key="units" minute="YES" second="YES"/>
+                        </timer>
+                        <label width="86" alignment="center" verticalAlignment="center" text="Well done! Now rest 😎" textAlignment="center" numberOfLines="3" id="d2v-mi-V2H">
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="pauseLabel" destination="d2v-mi-V2H" id="Rkc-hz-8U3"/>
+                        <outlet property="pauseTimer" destination="a6i-Wn-g17" id="1aM-Tp-hOj"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="531" y="28"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gear" catalog="system" width="128" height="118"/>
+    </resources>
+</document>
