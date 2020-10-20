@@ -1,6 +1,6 @@
 //
 //  HomeViewController.swift
-//  watchTest WatchKit Extension
+//  Poomodoro WatchKit Extension
 //
 //  Created by Damien Rojo on 13.10.20.
 //  Copyright © 2020 Damien Rojo. All rights reserved.
@@ -92,12 +92,13 @@ final class HomeViewController: WKInterfaceController {
     
     // MARK: - Actions
     
+    @IBAction private func didPressSettingsButton() {
+        presentSettingsViewController(viewController: self)
+    }
+
     @IBAction private func didPressStartButton() {
         WKInterfaceDevice.current().play(.start)
         presentWorkTimeViewController(viewController: self)
     }
 
-    @IBAction private func didPressSettingsButton() {
-        presentSettingsViewController(viewController: self)
-    }
 }

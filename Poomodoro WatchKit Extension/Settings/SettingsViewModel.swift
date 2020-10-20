@@ -1,6 +1,6 @@
 //
 //  SettingsViewModel.swift
-//  watchTest WatchKit Extension
+//  Poomodoro WatchKit Extension
 //
 //  Created by Damien Rojo on 16.10.20.
 //  Copyright © 2020 Damien Rojo. All rights reserved.
@@ -29,8 +29,8 @@ final class SettingsViewModel {
     }
     
     func didPressFirstConfiguration() {
-        configureTime(workTimeConfiguration: 1800.0,
-                      pauseTimeConfiguration: 300.0)
+        configureTime(workTimeConfiguration: 10.0,
+                      pauseTimeConfiguration: 5.0)
     }
     
     func didPressSecondConfiguration() {

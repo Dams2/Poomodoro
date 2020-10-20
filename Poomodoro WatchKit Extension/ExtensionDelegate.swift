@@ -1,6 +1,6 @@
 //
 //  ExtensionDelegate.swift
-//  watchTest WatchKit Extension
+//  Poomodoro WatchKit Extension
 //
 //  Created by Damien Rojo on 13.10.20.
 //  Copyright © 2020 Damien Rojo. All rights reserved.
@@ -30,10 +30,13 @@ class ExtensionDelegate: NSObject, WKExtensionDelegate {
             switch task {
             case let backgroundTask as WKApplicationRefreshBackgroundTask:
                 // Be sure to complete the background task once you’re done.
-                backgroundTask.setTaskCompletedWithSnapshot(false)
+                print("ksalmDLKMFDLAknlfasjndlnfasl")
+                backgroundTask.setTaskCompletedWithSnapshot(true)
             case let snapshotTask as WKSnapshotRefreshBackgroundTask:
                 // Snapshot tasks have a unique completion call, make sure to set your expiration date
-                snapshotTask.setTaskCompleted(restoredDefaultState: true, estimatedSnapshotExpiration: Date.distantFuture, userInfo: nil)
+                snapshotTask.setTaskCompleted(restoredDefaultState: true,
+                                              estimatedSnapshotExpiration: Date.distantFuture,
+                                              userInfo: nil)
             case let connectivityTask as WKWatchConnectivityRefreshBackgroundTask:
                 // Be sure to complete the connectivity task once you’re done.
                 connectivityTask.setTaskCompletedWithSnapshot(false)

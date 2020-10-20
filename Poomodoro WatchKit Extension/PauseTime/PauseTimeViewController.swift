@@ -1,6 +1,6 @@
 //
 //  PauseTimeViewController.swift
-//  watchTest WatchKit Extension
+//  Poomodoro WatchKit Extension
 //
 //  Created by Damien Rojo on 13.10.20.
 //  Copyright © 2020 Damien Rojo. All rights reserved.
@@ -34,7 +34,6 @@ final class PauseTimeViewController: WKInterfaceController {
 
     override func willActivate() {
         super.willActivate()
-        
     }
 
     override func didDeactivate() {
@@ -52,12 +51,14 @@ final class PauseTimeViewController: WKInterfaceController {
         
         viewModel.duration = { duration in
             DispatchQueue.main.async {
-                self.pauseTimer.setDate(Date(timeIntervalSinceNow: duration ))
-                self.timer = Timer.scheduledTimer(timeInterval: duration,
+                self.pauseTimer.setDate(Date(timeIntervalSinceNow: 5.0))
+                self.timer = Timer.scheduledTimer(timeInterval: 5.0,
                                               target: self,
                                               selector: #selector(self.timerDone),
                                               userInfo: nil,
                                               repeats: false)
+                guard let timer = self.timer else { return }
+                RunLoop.current.add(timer, forMode: .common)
             }
         }
     }

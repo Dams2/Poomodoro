@@ -9,7 +9,7 @@
         <!--SettingsViewController-->
         <scene sceneID="RMr-VL-cpO">
             <objects>
-                <controller identifier="SettingsViewController" id="Znk-Tt-rnW" customClass="SettingsViewController" customModule="watchTest_WatchKit_Extension">
+                <controller identifier="SettingsViewController" id="Znk-Tt-rnW" customClass="SettingsViewController" customModule="Poomodoro_WatchKit_Extension">
                     <items>
                         <label width="136" alignment="center" text="Configurations" textAlignment="center" id="oKd-8Y-oIs">
                             <fontDescription key="font" type="system" pointSize="12"/>
@@ -68,7 +68,7 @@
         <!--HomeViewController-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller identifier="HomeViewController" id="AgC-eL-Hgc" customClass="HomeViewController" customModule="watchTest_WatchKit_Extension">
+                <controller identifier="HomeViewController" id="AgC-eL-Hgc" customClass="HomeViewController" customModule="Poomodoro_WatchKit_Extension">
                     <items>
                         <group width="1" height="100" alignment="center" verticalAlignment="center" layout="vertical" id="9QW-Rw-hRC">
                             <items>
@@ -80,7 +80,7 @@
                                         <button width="23" height="21" alignment="right" backgroundImage="gear" catalog="system" id="rRn-Gd-5ZF">
                                             <color key="backgroundColor" red="0.94901960784313721" green="0.11372549019607843" blue="0.11372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
-                                                <action selector="didPressSettingsButton" destination="AgC-eL-Hgc" id="IhG-dH-JeS"/>
+                                                <action selector="didPressSettingsButton" destination="AgC-eL-Hgc" id="eds-ab-L8y"/>
                                             </connections>
                                         </button>
                                     </items>
@@ -118,18 +118,18 @@
                             <color key="titleColor" red="0.94901960780000005" green="0.1137254902" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="font" type="system" pointSize="23"/>
                             <connections>
-                                <action selector="didPressStartButton" destination="AgC-eL-Hgc" id="PJk-jn-Tdo"/>
+                                <action selector="didPressStartButton" destination="AgC-eL-Hgc" id="Vcb-MB-4l2"/>
                             </connections>
                         </button>
                     </items>
                     <connections>
-                        <outlet property="pauseTimeAmountLabel" destination="Ig0-vc-aUl" id="2mm-wx-h9e"/>
-                        <outlet property="pauseTimeLabel" destination="iAO-J5-I2a" id="yCG-f4-1Rk"/>
-                        <outlet property="settingsButton" destination="rRn-Gd-5ZF" id="8cQ-Kg-5A3"/>
-                        <outlet property="startButton" destination="7Sp-dk-rxx" id="qyi-gE-Eug"/>
-                        <outlet property="statisticsLabel" destination="TsY-Fr-xQN" id="l01-ZQ-Yxb"/>
-                        <outlet property="workTimeAmountLabel" destination="xZ9-lY-kB9" id="yYL-6B-Iiv"/>
-                        <outlet property="workTimeLabel" destination="8gw-jN-45q" id="nPW-3t-7JH"/>
+                        <outlet property="pauseTimeAmountLabel" destination="Ig0-vc-aUl" id="6Ry-nb-8Td"/>
+                        <outlet property="pauseTimeLabel" destination="iAO-J5-I2a" id="rFa-R3-kIX"/>
+                        <outlet property="settingsButton" destination="rRn-Gd-5ZF" id="DXM-l8-WJI"/>
+                        <outlet property="startButton" destination="7Sp-dk-rxx" id="2Kk-xQ-xnW"/>
+                        <outlet property="statisticsLabel" destination="TsY-Fr-xQN" id="yZf-DV-fhZ"/>
+                        <outlet property="workTimeAmountLabel" destination="xZ9-lY-kB9" id="SWo-wB-urH"/>
+                        <outlet property="workTimeLabel" destination="8gw-jN-45q" id="ieE-xS-SLm"/>
                     </connections>
                 </controller>
             </objects>
@@ -153,7 +153,7 @@
         <!--WorkTimeViewController-->
         <scene sceneID="baD-lN-l3L">
             <objects>
-                <controller identifier="WorkTimeViewController" id="KrW-2i-NZB" customClass="WorkTimeViewController" customModule="watchTest_WatchKit_Extension">
+                <controller identifier="WorkTimeViewController" id="KrW-2i-NZB" customClass="WorkTimeViewController" customModule="Poomodoro_WatchKit_Extension">
                     <items>
                         <timer width="136" height="53" alignment="center" textAlignment="center" previewedSeconds="1800" id="Yxh-xt-syG">
                             <color key="textColor" red="0.94901960780000005" green="0.1137254902" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -175,7 +175,7 @@
         <!--PauseTimeViewController-->
         <scene sceneID="snl-zg-GBV">
             <objects>
-                <controller identifier="PauseTimeViewController" id="1J6-sf-SEb" customClass="PauseTimeViewController" customModule="watchTest_WatchKit_Extension">
+                <controller identifier="PauseTimeViewController" id="1J6-sf-SEb" customClass="PauseTimeViewController" customModule="Poomodoro_WatchKit_Extension">
                     <items>
                         <timer width="136" height="53" alignment="center" textAlignment="center" previewedSeconds="300" id="a6i-Wn-g17">
                             <color key="textColor" red="0.25730219494467066" green="0.46271571302974057" blue="0.87167209386825562" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

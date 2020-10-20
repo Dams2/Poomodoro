@@ -1,6 +1,6 @@
 //
 //  HomeViewModel.swift
-//  watchTest WatchKit Extension
+//  Poomodoro WatchKit Extension
 //
 //  Created by Damien Rojo on 13.10.20.
 //  Copyright © 2020 Damien Rojo. All rights reserved.
@@ -26,9 +26,9 @@ final class HomeViewModel {
         settingsText?("gear")
         statisticsText?("Statistics")
         workTimeText?("Work time:")
-        workTimeAmountText?(counter(time: 30, count: workCounter))
+        workTimeAmountText?(counter(time: workTime, count: workCounter))
         pauseTimeText?("Pause time:")
-        pauseTimeAmountText?(counter(time: 5, count: workCounter))
+        pauseTimeAmountText?(counter(time: pauseTime, count: workCounter))
         startText?("Start")
     }
     

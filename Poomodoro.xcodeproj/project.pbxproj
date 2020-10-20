@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		913606DE253900BF008E964E /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913606DD253900BF008E964E /* SettingsViewModel.swift */; };
-		91510FAA2535CDF3000A604E /* watchTest WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 91510FA92535CDF3000A604E /* watchTest WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		91510FB02535CDF3000A604E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91510FAE2535CDF3000A604E /* Interface.storyboard */; };
+		91510FAA2535CDF3000A604E /* Poomodoro WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 91510FA92535CDF3000A604E /* Poomodoro WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		91510FB22535CDF4000A604E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91510FB12535CDF4000A604E /* Assets.xcassets */; };
-		91510FB92535CDF4000A604E /* watchTest WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 91510FB82535CDF4000A604E /* watchTest WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		91510FB92535CDF4000A604E /* Poomodoro WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 91510FB82535CDF4000A604E /* Poomodoro WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		91510FBE2535CDF4000A604E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91510FBD2535CDF4000A604E /* HomeViewController.swift */; };
 		91510FC02535CDF4000A604E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91510FBF2535CDF4000A604E /* ExtensionDelegate.swift */; };
 		91510FC22535CDF4000A604E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91510FC12535CDF4000A604E /* Assets.xcassets */; };
@@ -19,6 +18,7 @@
 		91510FD82535EE6C000A604E /* PauseTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91510FD72535EE6C000A604E /* PauseTimeViewController.swift */; };
 		91510FDE2535EF19000A604E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91510FDD2535EF19000A604E /* HomeViewModel.swift */; };
 		91510FE12535EF58000A604E /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91510FE02535EF58000A604E /* Closures.swift */; };
+		9172538E2539858600A77431 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91510FAE2535CDF3000A604E /* Interface.storyboard */; };
 		9186D2BE2535F3E900D1655B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186D2BD2535F3E900D1655B /* SettingsViewController.swift */; };
 		9186D2C0253683B300D1655B /* WorkTimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186D2BF253683B300D1655B /* WorkTimeViewModel.swift */; };
 		9186D2C22536852500D1655B /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186D2C12536852500D1655B /* Screens.swift */; };
@@ -50,7 +50,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				91510FB92535CDF4000A604E /* watchTest WatchKit Extension.appex in Embed App Extensions */,
+				91510FB92535CDF4000A604E /* Poomodoro WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,7 +61,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				91510FAA2535CDF3000A604E /* watchTest WatchKit App.app in Embed Watch Content */,
+				91510FAA2535CDF3000A604E /* Poomodoro WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,12 +70,12 @@
 
 /* Begin PBXFileReference section */
 		913606DD253900BF008E964E /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
-		91510FA52535CDF3000A604E /* watchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		91510FA92535CDF3000A604E /* watchTest WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchTest WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91510FA52535CDF3000A604E /* Poomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91510FA92535CDF3000A604E /* Poomodoro WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poomodoro WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91510FAF2535CDF3000A604E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		91510FB12535CDF4000A604E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91510FB32535CDF4000A604E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91510FB82535CDF4000A604E /* watchTest WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchTest WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91510FB82535CDF4000A604E /* Poomodoro WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Poomodoro WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91510FBD2535CDF4000A604E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		91510FBF2535CDF4000A604E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		91510FC12535CDF4000A604E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,8 +105,8 @@
 		91510F9E2535CDF3000A604E = {
 			isa = PBXGroup;
 			children = (
-				91510FAD2535CDF3000A604E /* watchTest WatchKit App */,
-				91510FBC2535CDF4000A604E /* watchTest WatchKit Extension */,
+				91510FAD2535CDF3000A604E /* Poomodoro WatchKit App */,
+				91510FBC2535CDF4000A604E /* Poomodoro WatchKit Extension */,
 				91510FA62535CDF3000A604E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,24 +114,24 @@
 		91510FA62535CDF3000A604E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91510FA52535CDF3000A604E /* watchTest.app */,
-				91510FA92535CDF3000A604E /* watchTest WatchKit App.app */,
-				91510FB82535CDF4000A604E /* watchTest WatchKit Extension.appex */,
+				91510FA52535CDF3000A604E /* Poomodoro.app */,
+				91510FA92535CDF3000A604E /* Poomodoro WatchKit App.app */,
+				91510FB82535CDF4000A604E /* Poomodoro WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		91510FAD2535CDF3000A604E /* watchTest WatchKit App */ = {
+		91510FAD2535CDF3000A604E /* Poomodoro WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
 				91510FAE2535CDF3000A604E /* Interface.storyboard */,
 				91510FB12535CDF4000A604E /* Assets.xcassets */,
 				91510FB32535CDF4000A604E /* Info.plist */,
 			);
-			path = "watchTest WatchKit App";
+			path = "Poomodoro WatchKit App";
 			sourceTree = "<group>";
 		};
-		91510FBC2535CDF4000A604E /* watchTest WatchKit Extension */ = {
+		91510FBC2535CDF4000A604E /* Poomodoro WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
 				91C8944725369D4300070669 /* NoticifationsCenter */,
@@ -144,7 +144,7 @@
 				91510FC12535CDF4000A604E /* Assets.xcassets */,
 				91510FC32535CDF4000A604E /* Info.plist */,
 			);
-			path = "watchTest WatchKit Extension";
+			path = "Poomodoro WatchKit Extension";
 			sourceTree = "<group>";
 		};
 		91510FD92535EED6000A604E /* Home */ = {
@@ -203,9 +203,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		91510FA42535CDF3000A604E /* watchTest */ = {
+		91510FA42535CDF3000A604E /* Poomodoro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91510FCE2535CDF4000A604E /* Build configuration list for PBXNativeTarget "watchTest" */;
+			buildConfigurationList = 91510FCE2535CDF4000A604E /* Build configuration list for PBXNativeTarget "Poomodoro" */;
 			buildPhases = (
 				91510FA32535CDF3000A604E /* Resources */,
 				91510FCD2535CDF4000A604E /* Embed Watch Content */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				91510FAC2535CDF3000A604E /* PBXTargetDependency */,
 			);
-			name = watchTest;
+			name = Poomodoro;
 			productName = watchTest;
-			productReference = 91510FA52535CDF3000A604E /* watchTest.app */;
+			productReference = 91510FA52535CDF3000A604E /* Poomodoro.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		91510FA82535CDF3000A604E /* watchTest WatchKit App */ = {
+		91510FA82535CDF3000A604E /* Poomodoro WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91510FCA2535CDF4000A604E /* Build configuration list for PBXNativeTarget "watchTest WatchKit App" */;
+			buildConfigurationList = 91510FCA2535CDF4000A604E /* Build configuration list for PBXNativeTarget "Poomodoro WatchKit App" */;
 			buildPhases = (
 				91510FA72535CDF3000A604E /* Resources */,
 				91510FC92535CDF4000A604E /* Embed App Extensions */,
@@ -232,14 +232,14 @@
 			dependencies = (
 				91510FBB2535CDF4000A604E /* PBXTargetDependency */,
 			);
-			name = "watchTest WatchKit App";
+			name = "Poomodoro WatchKit App";
 			productName = "watchTest WatchKit App";
-			productReference = 91510FA92535CDF3000A604E /* watchTest WatchKit App.app */;
+			productReference = 91510FA92535CDF3000A604E /* Poomodoro WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		91510FB72535CDF4000A604E /* watchTest WatchKit Extension */ = {
+		91510FB72535CDF4000A604E /* Poomodoro WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91510FC62535CDF4000A604E /* Build configuration list for PBXNativeTarget "watchTest WatchKit Extension" */;
+			buildConfigurationList = 91510FC62535CDF4000A604E /* Build configuration list for PBXNativeTarget "Poomodoro WatchKit Extension" */;
 			buildPhases = (
 				91510FB42535CDF4000A604E /* Sources */,
 				91510FB52535CDF4000A604E /* Frameworks */,
@@ -249,9 +249,9 @@
 			);
 			dependencies = (
 			);
-			name = "watchTest WatchKit Extension";
+			name = "Poomodoro WatchKit Extension";
 			productName = "watchTest WatchKit Extension";
-			productReference = 91510FB82535CDF4000A604E /* watchTest WatchKit Extension.appex */;
+			productReference = 91510FB82535CDF4000A604E /* Poomodoro WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -275,7 +275,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 91510FA22535CDF3000A604E /* Build configuration list for PBXProject "watchTest" */;
+			buildConfigurationList = 91510FA22535CDF3000A604E /* Build configuration list for PBXProject "Poomodoro" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -288,9 +288,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				91510FA42535CDF3000A604E /* watchTest */,
-				91510FA82535CDF3000A604E /* watchTest WatchKit App */,
-				91510FB72535CDF4000A604E /* watchTest WatchKit Extension */,
+				91510FA42535CDF3000A604E /* Poomodoro */,
+				91510FA82535CDF3000A604E /* Poomodoro WatchKit App */,
+				91510FB72535CDF4000A604E /* Poomodoro WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -307,8 +307,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9172538E2539858600A77431 /* Interface.storyboard in Resources */,
 				91510FB22535CDF4000A604E /* Assets.xcassets in Resources */,
-				91510FB02535CDF3000A604E /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,12 +347,12 @@
 /* Begin PBXTargetDependency section */
 		91510FAC2535CDF3000A604E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91510FA82535CDF3000A604E /* watchTest WatchKit App */;
+			target = 91510FA82535CDF3000A604E /* Poomodoro WatchKit App */;
 			targetProxy = 91510FAB2535CDF3000A604E /* PBXContainerItemProxy */;
 		};
 		91510FBB2535CDF4000A604E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91510FB72535CDF4000A604E /* watchTest WatchKit Extension */;
+			target = 91510FB72535CDF4000A604E /* Poomodoro WatchKit Extension */;
 			targetProxy = 91510FBA2535CDF4000A604E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -488,14 +488,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = SPYXZN2GGQ;
-				INFOPLIST_FILE = "watchTest WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "Poomodoro WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.DRojo.watchTest.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DRojo.Poomodoro.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -510,14 +511,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = SPYXZN2GGQ;
-				INFOPLIST_FILE = "watchTest WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "Poomodoro WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.DRojo.watchTest.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DRojo.Poomodoro.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -533,11 +535,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = SPYXZN2GGQ;
-				IBSC_MODULE = watchTest_WatchKit_Extension;
-				INFOPLIST_FILE = "watchTest WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.DRojo.watchTest.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IBSC_MODULE = Poomodoro_WatchKit_Extension;
+				INFOPLIST_FILE = "Poomodoro WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DRojo.Poomodoro.watchkitapp;
+				PRODUCT_NAME = "Poomodoro WatchKit App";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -552,11 +555,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = SPYXZN2GGQ;
-				IBSC_MODULE = watchTest_WatchKit_Extension;
-				INFOPLIST_FILE = "watchTest WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.DRojo.watchTest.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IBSC_MODULE = Poomodoro_WatchKit_Extension;
+				INFOPLIST_FILE = "Poomodoro WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DRojo.Poomodoro.watchkitapp;
+				PRODUCT_NAME = "Poomodoro WatchKit App";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -569,7 +573,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = SPYXZN2GGQ;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.DRojo.Poomodoro;
@@ -582,7 +586,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = SPYXZN2GGQ;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.DRojo.Poomodoro;
@@ -594,7 +598,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		91510FA22535CDF3000A604E /* Build configuration list for PBXProject "watchTest" */ = {
+		91510FA22535CDF3000A604E /* Build configuration list for PBXProject "Poomodoro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91510FC42535CDF4000A604E /* Debug */,
@@ -603,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91510FC62535CDF4000A604E /* Build configuration list for PBXNativeTarget "watchTest WatchKit Extension" */ = {
+		91510FC62535CDF4000A604E /* Build configuration list for PBXNativeTarget "Poomodoro WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91510FC72535CDF4000A604E /* Debug */,
@@ -612,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91510FCA2535CDF4000A604E /* Build configuration list for PBXNativeTarget "watchTest WatchKit App" */ = {
+		91510FCA2535CDF4000A604E /* Build configuration list for PBXNativeTarget "Poomodoro WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91510FCB2535CDF4000A604E /* Debug */,
@@ -621,7 +625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91510FCE2535CDF4000A604E /* Build configuration list for PBXNativeTarget "watchTest" */ = {
+		91510FCE2535CDF4000A604E /* Build configuration list for PBXNativeTarget "Poomodoro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91510FCF2535CDF4000A604E /* Debug */,

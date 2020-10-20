@@ -1,6 +1,6 @@
 //
 //  WorkTimeViewController.swift
-//  watchTest WatchKit Extension
+//  Poomodoro WatchKit Extension
 //
 //  Created by Damien Rojo on 13.10.20.
 //  Copyright © 2020 Damien Rojo. All rights reserved.
@@ -8,12 +8,12 @@
 
 import WatchKit
 import Foundation
-import AVFoundation
 
-final class WorkTimeViewController: WKInterfaceController {
+final class WorkTimeViewController: WKInterfaceController, WKExtensionDelegate {
     
     // MARK: - Private Properties
 
+    private var extensionDelegate = ExtensionDelegate()
     private var viewModel: WorkTimeViewModel!
     private var timer: Timer?
     
@@ -34,7 +34,7 @@ final class WorkTimeViewController: WKInterfaceController {
 
     override func willActivate() {
         super.willActivate()
-        WKInterfaceDevice.current().play(.start)
+        
     }
 
     override func didDeactivate() {
@@ -58,10 +58,13 @@ final class WorkTimeViewController: WKInterfaceController {
                                               selector: #selector(self.timerDone),
                                               userInfo: nil,
                                               repeats: false)
+                guard let timer = self.timer else { return }
+                RunLoop.current.add(timer, forMode: .common)
             }
         }
     }
 
+    
     @objc private func timerDone() {
         workCounter += 1
         WKInterfaceDevice.current().play(.notification)
